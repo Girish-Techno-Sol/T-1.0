@@ -27,10 +27,9 @@ resource "null_resource" "webprovisioner" {
       }
       inline = [
         "sudo apt update",
-        "sudo apt install nginx  -y",
-        "sudo apt install tree -y",
-        "sudo apt update",
-        "sudo apt install python3 -y"
+        "sudo apt install nginx  -y"
+        
+       
       ]
       
      
